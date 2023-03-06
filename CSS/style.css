@@ -803,9 +803,143 @@ li,a {
 }
 
 
+/* section_7 */
+.section_7 {
+    
+}
+.portfolio {
+    max-width: 1280px;
+    margin: auto;
+}
+.portfolio .head h1 {
+    color: #7251A2;
+}
+
+.portfolio_links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.portfolio_links a {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid transparent;
+}
+.portfolio_links a:hover {
+    color: #7251A2;
+    border: 1px solid;
+
+}
+.portfolio_links a:focus {
+    color: #7251A2;
+    border: 1px solid;
+
+}
+.collarge {
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    align-items: center;
+
+    padding: 2rem 0;
+}
+.collarge_img {
+    background-image: url("https://www.themesindustry.com/html/rockox/images/portfolio/portfolio4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    
+}
+
+.collarge_img .colorbg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    overflow: hidden;
+    transition: 0.3s;
+}
+.collarge_img .colorbg:hover {
+    background-color: #0a9fadb4;
+
+}
+.collarge_img .colorbg li{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 0.5rem;
+
+    position: relative;
+    bottom: 8rem;
+    transition: 0.3s ease-out;
+}
+.collarge_img .colorbg a{
+    color: white;
+    font-size: 18px;
+}
+.collarge_img:hover .colorbg li {
+    bottom: 0rem;
+}
+
+/* section_8 */
+.section_8 {
+
+}
+
+.best_seller {
+    max-width: 1280px;
+    margin: auto;
+}
+.best_seller .head h1{
+    color: #f231b1;
+}
+.sale {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
 
 
 
+/* map_container */
+.map_section {
+    padding: 0;
+}
+.map_container {
+    height: 400px;
+}
+
+/* footer */
+.footer {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    text-align: center;
+    padding: 4rem 0;
+}
+.contact_links {
+    display: flex;
+    justify-content: center;
+}
+.contact_links a {
+    display: inline-block;
+    font-size: 24px;
+    width: 3rem;
+    height: 3rem;
+    border: 3px solid #6161615d;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul:nth-child(2) {
+    font-size: 22px;
+    color: #616161;
+}
 /* small monitor */
 @media only screen and (max-width: 1200px) {
     .navlinks li a{
